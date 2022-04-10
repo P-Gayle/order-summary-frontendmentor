@@ -17,6 +17,12 @@ body {
     flex-direction: column;  
 }
 
+.hero {
+    width: 100%;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
 .card {
     width: 30%;
     height: 840px;
@@ -26,31 +32,83 @@ body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    /*the below code is to sentre the card on the page*/
+    /*the below code is to centre the card on the page*/
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-    
-    
+    transform: translate(-50%, -50%); 
+    box-shadow: 7px 11px 15px 2px rgba(68,102,187,0.20);
 }
 
 .card h1 {
     padding: 8px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 8px;
-
+    font-weight: 900;
+    color: hsl(223, 47%, 23%); 
 }
 
-.card p {
+.card .info {
     font-size: 22px;
     text-align: center;
-    margin: 15px 50px;
-    padding: 5px;    
+    margin: 5px 60px;
+    padding: 5px; 
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);    
 }
 
-.hero {
-    width: 100%;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
+.plan {
+    background-color:hsl(225, 100%, 98%);
+    margin: 20px 50px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    font-size: 20px;
+    border-radius: 18px; 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-self: center;
+    font-weight: 700;   
+}
+
+.annual-plan {
+   font-weight: 900; 
+   color: hsl(223, 47%, 23%); 
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.plan a:focus {
+    color: hsl(245, 75%, 52%)                                       
+}
+
+#proceed-btn {
+    background-color:hsl(245, 75%, 52%);
+    color:white;
+    margin: 15px 20px;
+    padding: 15px 130px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 18px;
+    box-shadow: 7px 11px 15px 8px rgba(69,105,255,0.20)
+}
+
+#annual-plan {
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel-btn {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 15px;
 }
