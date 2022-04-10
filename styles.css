@@ -112,3 +112,11 @@ body {
   font-weight: 900;
   margin-top: 15px;
 }
+
+.attribution {
+   position: absolute;
+   bottom: 30px;
+   left: 40%;
+   margin-right: -50%;
+
+}
