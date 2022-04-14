@@ -19,9 +19,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
+I did not have access to the Figma file 
+
 ### Continued development
 
-I need to look at the correct way to use rem in places instead of fixed pixels
+I had problems aligning the card to the centre using Flexbox so this is something that I need to work on.
 
 
 ## Author
