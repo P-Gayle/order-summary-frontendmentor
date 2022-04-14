@@ -29,6 +29,7 @@ I had problems aligning the card to the centre using Flexbox so this is somethin
 ## Author
 
 - Frontend Mentor - (https://www.frontendmentor.io/profile/P-Gayle)
+- Github page deployment - (https://p-gayle.github.io/order-summary-frontendmentor/)
 
 
 
