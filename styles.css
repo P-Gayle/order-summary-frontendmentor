@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-    width: 30%;
+    width: 540px;
     height: 840px;
     background-color: white;
     border-radius: 3%;
@@ -40,16 +40,9 @@ body {
     transform: translate(-50%, -50%);  
 }
 
-@media screen and (max-width: 375px) {
-    .card {
-        width: 365px;
-        height: 650px;
-    }
-}
-
 .card h1 {
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 8px;
     font-weight: 900;
     color: hsl(223, 47%, 23%); 
@@ -58,19 +51,10 @@ body {
 .card .info {
     font-size: 22px;
     text-align: center;
-    margin: 5px 60px;
+    margin: 5px 70px;
     padding: 5px; 
     font-weight: 700;
     color: hsl(224, 23%, 55%);    
-}
-
-@media screen and (max-width: 375px) {
-    .card .info {
-        margin-left: 1.1em;
-        margin-right: 1.1em;
-        font-size: 1.1em;
-        line-height: 1.4em;
-    }
 }
 
 .plan {
@@ -81,14 +65,6 @@ body {
     grid-template-columns: 1fr 4fr 1fr;
     font-size: 20px;
     border-radius: 18px; 
-}
-
-@media screen and (max-width: 375px) {
-    .plan{
-    margin-left: 1.1em;
-    margin-right: 1.1em;
-    padding:1em;
-    }
 }
 
 .text {
@@ -106,12 +82,7 @@ body {
 
 #annual-plan {
     color: hsl(224, 23%, 55%);
-}
-
-@media screen and (max-width: 375px) {
-    #annual-plan{
-        padding-left: 1em;
-    }
+    padding-left: 1em;
 }
 
 .plan a{
@@ -125,21 +96,14 @@ body {
 
 #proceed-btn {
     background-color:hsl(245, 75%, 52%);
-    color:white;
-    margin: 15px 20px;
-    padding: 15px 130px;
+    color: hsl(225, 100%, 98%);
+    margin: 18px 10px;
+    padding: 18px 120px;
     font-size: 20px;
-    font-weight: 900;
-    border-radius: 18px;
+    font-weight: 700;
+    border-radius: 16px;
     box-shadow: 7px 11px 15px 8px rgba(69,105,255,0.20);
     border: none;
-}
-
-@media screen and (max-width: 375px) {
-    #proceed-btn {
-        padding: 10px 2em;
-        margin-top: 0.5em;
-    }
 }
 
 #proceed-btn:hover {
@@ -152,7 +116,7 @@ body {
   background: none;
   border: none;
   color: hsl(224, 23%, 55%);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
   margin-top: 15px;
   cursor: pointer;
@@ -164,6 +128,37 @@ body {
    left: 40%;
    margin-right: -50%;
 
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 365px;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card .info {
+        margin-left: 1.1em;
+        margin-right: 1.1em;
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .plan{
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    padding:1em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #proceed-btn {
+        padding: 10px 2em;
+        margin-top: 0.5em;
+    }
 }
 
 @media screen and (max-width: 375px) {
