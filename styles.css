@@ -90,8 +90,8 @@ body {
     font-weight: 700;
 }
 
-.plan a:focus {
-    color:  hsl(223, 47%, 23%);                                     
+.plan a:hover {
+    color:  hsl(245, 75%, 70%);                                     
 }
 
 #proceed-btn {
@@ -120,6 +120,10 @@ body {
   font-weight: 900;
   margin-top: 15px;
   cursor: pointer;
+}
+
+#cancel-btn:hover {
+    color: hsl(223, 47%, 23%); 
 }
 
 .attribution {
